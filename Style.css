@@ -1,0 +1,15 @@
+/*
+p{ color:pink; font-size: 20px;}
+
+div{ background-color: green;} */
+
+/* 
+.a{ color:pink}
+.b{color: tomato; background-color: cyan;}
+#c{color: green;} */
+
+p.cls{ color: tomato}
+p.large{font-size: 30px}
+
+/* Universal Selector */
+*{text-align: center;} 

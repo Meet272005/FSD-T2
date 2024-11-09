@@ -1,0 +1,27 @@
+<!-- Write a CSS to perform 
+ 1.add unorderd list with three random items
+ 2.if direct child of ul element is b tag then apply font color blue and font size should be 20px
+ 3.if direct child of ul element is li tag then it should be displayed in red color and smaller font size  -->
+
+ <html>
+ <head>
+    <title>Document</title>
+    <style>
+        ul>b{
+            font-size: 20px;
+            color: blue;
+        }
+        ul>li{
+            font-size: smaller;
+            color: red;
+        }
+    </style>
+ </head>
+ <body>
+    <ul>
+        <li><b>Tea</b></li>
+        <li>Tea</li>
+        <b><li>coffee</li></b>
+    </ul>
+ </body>
+ </html>
