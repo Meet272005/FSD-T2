@@ -1,0 +1,11 @@
+h1.abc{
+    text-align: center;
+}
+::selection{ color:green; background-color: yellow;}
+::marker{color: red;}
+ .a::before{content:"######";}
+ .a::after{content:"#####";}
+ .b::before{content:"#"; font-size: 30px; color: tomato;}
+.p1::first-letter{font-size: 50px;}
+.p1::first-line{font-weight: bold;}
+

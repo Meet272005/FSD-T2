@@ -1,0 +1,33 @@
+.a{
+    border-color: red green blue yellow;
+}
+
+.b{
+    border-style: double;
+    border-color: red green blue;
+
+}
+
+.c{
+    border-style: dotted;
+    border-color: blue;
+}
+
+.d{
+    border-style: solid dashed dotted double;
+    border-color:   blue red tomato green;
+}
+
+.e{
+    border-style: dashed;
+    border-color:   blue;
+}
+
+.f{
+    border: 5px solid red ;
+    border-radius: 50%;
+}
+
+body{
+    background-color: gold;
+}

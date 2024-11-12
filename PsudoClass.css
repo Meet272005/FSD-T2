@@ -1,0 +1,6 @@
+a:link{color: cyan;}
+a:visited{color: hotpink;}
+a:hover{color: tomato; font-size: 30px;}
+a:active{color: lime;}
+ul:hover{color: palegreen; font-size: 25px;}
+h1.abc:active{color: red;}
