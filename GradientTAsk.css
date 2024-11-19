@@ -1,0 +1,19 @@
+.t1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    height: 8%;
+    width: 80%;
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+}
+
+.t2{
+    text-align: center;
+    font-size:xx-large;
+    font-weight: bold;
+    height: 15%;
+    width: 80%;
+    background-image: linear-gradient(45deg,purple blue, rgb(243, 93, 93), #00ffaa, #ee0979);
+    color:transparent;
+    -webkit-background-clip: text;
+}

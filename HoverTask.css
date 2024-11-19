@@ -1,0 +1,15 @@
+input[type]{
+    width: 100px;
+    height: 20px;
+    background-color: pink;
+    opacity: 0.3;
+    border: 1px solid palevioletred;
+    transition-property: width,height;
+    transition-duration: 5s;
+    transition-delay: 2s;
+}
+
+input[type]:hover{
+    width: 200px;
+    height: 100px;
+}

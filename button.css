@@ -1,0 +1,16 @@
+.button{
+    cursor: grab;
+    text-decoration: none;
+    height: 10px;
+    width: 80px;
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+    color: blue;
+    background-color:wheat;
+    display: inline-block;
+}
+
+button:hover{
+    background-color:green;
+}
