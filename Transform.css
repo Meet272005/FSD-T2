@@ -1,0 +1,52 @@
+div{
+    height: 200px;
+    width: 300px;
+    float: left;
+    border: 1px solid blue;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    background-color: cyan;
+}
+
+.p1:hover{
+    transform: rotate(50deg);
+    background-color: tomato;
+}
+.p2:hover{
+    transform: rotateX(180deg);
+    background-color: tomato;
+}
+.p3:hover{
+    transform: rotateY(180deg);
+    background-color: tomato;
+}
+.p4:hover{
+    transform: skew(20deg,0deg);
+    background-color: tomato;
+}
+.p5:hover{
+    transform: scale(2,0.5);
+    background-color: tomato;
+}
+.p6:hover{
+    transform: scaleX(2);
+    background-color: tomato;
+}
+.p7:hover{
+    transform: scaleY(2);
+    background-color: tomato;
+}
+.p8:hover{
+    transform: translate(50px,100px);
+    background-color: tomato;
+}
+.p9:hover{
+    transform: skewX(30deg);
+    background-color: tomato;
+}
+.p10:hover{
+    transform: skewY(30deg);
+    background-color: tomato;
+}
+

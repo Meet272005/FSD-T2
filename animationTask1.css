@@ -1,0 +1,33 @@
+.a1{
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: brown;
+    border: 1px solid red;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: 10;
+    border-radius: 50%;
+}
+.a2{
+    position: absolute;
+    background-color: yellow;
+    animation-name: animate2;
+    animation-duration: 5s;
+    animation-delay: 0s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+@keyframes animate {
+    0%{top: 0px;left: 0px;}
+    50%{top: 300px;left: 300px;transform:rotate(180deg)}
+    100%{top: 0px;left: 600px;transform:rotate(360deg)}
+}
+@keyframes animate2 {
+    0%{left: 0px;}
+    50%{left: 50%;}
+    100%{left: 100%;}
+}

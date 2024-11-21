@@ -1,0 +1,7 @@
+.multi{
+    column-count: 3;
+    column-gap: 20px;
+    column-rule-style: double;
+    column-rule-color: pink;
+    column-rule-width: 5px;
+}

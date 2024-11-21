@@ -1,0 +1,26 @@
+div{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    background-color: cyan;
+    border: 1px solid blue;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-delay: 2s;
+    animation-direction: normal;
+    animation-iteration-count: 10;
+}
+@keyframes animate {
+    /* from{
+        background-color: cyan;
+    }    
+    to{
+        background-color: tomato;
+    } */
+
+    0%{background-color: cyan;top: 0px;left: 0px;}
+    25%{background-color: cyan;top: 0px;left: 300px;}
+    50%{background-color: green;top: 300px;left: 300px;}
+    75%{background-color: tomato;top: 300px;left: 0px;}
+    100%{background-color: tomato;top: 0px;left: 0px;}
+}
