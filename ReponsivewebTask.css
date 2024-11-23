@@ -1,0 +1,43 @@
+div{
+    /* visibility: visible;
+    background-color: lavender; */
+}
+a{
+    background-color: palevioletred;
+    color: white;
+}
+
+a:hover{
+    margin: -1;
+    display: inline-block;
+    padding-inline: 5%;
+    font-size: 15px;
+} 
+
+/* @media only screen and (max-width:600px){
+    div{
+        visibility: hidden;
+    }
+} 
+ 
+/* @media only screen and (max-width:400px ){  
+    div{
+        background-color: lightgreen;
+    }
+}
+@media only screen and (max-width:799px){
+    div{
+        background-color: lightgreen;
+    }
+}
+@media only screen and (max-width:400px){
+    div{
+        background-color: lightblue;
+    }
+}  */
+
+@media only screen and (max-width:600px){
+    div a{
+        display: block;
+    }
+}

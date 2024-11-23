@@ -1,0 +1,16 @@
+:root{
+    --c:blue;
+    --bcol:lightgray;
+    --fs:32px;
+}
+
+h1{
+    --c:green;
+    color: var(--c);
+}
+
+p{
+    color: var(--c);
+    background-color: var(--bcol);
+    font-size: var(--fs);
+}

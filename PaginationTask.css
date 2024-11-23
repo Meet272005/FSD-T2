@@ -1,0 +1,25 @@
+.pagination{
+    margin: 10%;
+    display: inline-block;
+    background-color: goldenrod;
+    padding: 5%;
+}
+
+.pagination a{
+    text-decoration: none;
+    background-color: rgb(243, 187, 44);
+    padding: 20px;
+    margin: -2;
+    color: white;
+}
+
+a.active{
+    background-color: green;
+    color: white;
+}
+
+a:hover{
+    background-color: whitesmoke;
+    opacity: 0.6;
+    font-size: 20px;
+}
