@@ -1,0 +1,24 @@
+ table{
+    border: 2px solid black;
+    font-size: 20px;
+ }
+
+ .u{
+    text-decoration: underline;
+ }
+
+ .i{
+    font-style: italic;
+ }
+
+ tr{
+    width:400px;
+    transition-duration:5s;
+    transition-property: transform;
+ }
+
+ tr:hover{
+    transform: scale(1.5);
+    color: cyan;
+    background: tomato;
+ }
